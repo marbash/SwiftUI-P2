@@ -11,7 +11,7 @@ import UIKit
 
 struct ClassWork5: View {
     var moviewName: [String] = ["Alaadin","Coco","Toy Story"]
-    //var characters: [String] = [["Aladdin", "Jasmin", "Genie"],["Aladdin", "Jasmin", "Genie"],["Aladdin", "Jasmin", "Genie"]]
+    // var characters: [String] = [["Aladdin", "Jasmin", "Genie"],["Aladdin", "Jasmin", "Genie"],["Aladdin", "Jasmin", "Genie"]]
     var  movieImage: [UIImage] = [#imageLiteral(resourceName: "Alaadin"),#imageLiteral(resourceName: "coco"),#imageLiteral(resourceName: "toystory")]
     var body: some View {
         NavigationView{
